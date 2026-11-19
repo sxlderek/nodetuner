@@ -1,0 +1,15 @@
+# ============================================================
+# Ignore ALL dot files and dot directories (at every level)
+# ============================================================
+.*
+
+# Keep this .gitignore itself tracked, so the rules ship with the repo
+!.gitignore
+
+# NOTE: `.*` also hides `.github/` (CI workflows) and `.README.md`.
+# To track any of them again, uncomment the lines below.
+# (Files inside an ignored directory can only be re-included
+#  if the directory itself is re-included first.)
+#!.github
+#!.github/**
+#!.README.md
